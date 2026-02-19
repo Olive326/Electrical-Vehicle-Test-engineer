@@ -21,13 +21,13 @@ A bi-directional motor-driven latch mechanism with:
 ## 4 Diagnostic Interface Design
 A multiple-pin diagnostic connector was used to expose key sensor signals for debugging and production validation.
 
-** Sensor Pin ** (all belong to mechanical switch not encoder): 
+**Sensor Pin** (all belong to mechanical switch not encoder): 
 - Home: indicates whether the latch mechanism has returned to the neutral location
 - Pawl：indicates whether the pawl is fully engaged in the primary lock position
 - Ajar：indicates whether the door is full closed or open
 
-** Common **：
+**Common**：
 - Common ground shared by all switch signals 
 
-** Motor pin **:
+**Motor pin**:
 - Provide bidirectional motor drive(forward/backward)
