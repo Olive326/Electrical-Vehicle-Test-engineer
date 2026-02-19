@@ -15,6 +15,7 @@ A bi-directional motor-driven latch mechanism with:
 - Control Logic Layer: motor forward/reverse control
 
 ## 3 State machine design
+![state-machine-design](https://github.com/user-attachments/assets/2f742f45-4ad2-4ac1-be5a-001e35fc286d)
 
 
 ## 4 Diagnostic Interface Design
