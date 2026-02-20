@@ -125,6 +125,7 @@ Mechanical interference prevents full closure
 - Voltage lower than x V threshold
 
 **Low Temperature Aggravation**
+
 At low temperature:
 - Relay actuation slows
 - Inrush current increase
@@ -141,6 +142,7 @@ At low temperature:
 - Low temperature reduces motor resistence
   
 **Case 8 – Brake Pedal Vibration**
+
 In new energt vehicle:
 - Light press: regenerative vraking
 - Deep press: hydraulic brake blended
@@ -157,6 +159,7 @@ In new energt vehicle:
 
 **Case 10 – Back Door External Switch Invalid but UI shows Open**
 **Possible Causes**
+
 Communication issue:
 - CAN\LIN offline
 - Command not executed
