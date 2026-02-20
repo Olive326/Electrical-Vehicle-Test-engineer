@@ -65,6 +65,7 @@ Although the functions are different, their control architecture is very similar
 - Message timeout?
 
 ### Case Studies
+
 **Case 1 – Only Left Front Window Works**
 **Symptom**
 - Only left front window can be controlled.
