@@ -56,22 +56,27 @@ The system records:
 - Normal hall pulse range
   
 **Step 2 -Real-Time Monitoring**
+
 The system records:
 - Normal current range
 - Normal hall pulse range 
+
 Once both the
 - hall pulse count and
 - current exceeds the threshold
+
 Then
 - Trigger anti-pintch(if closing)
 - Trigger anti-collision(if opening)
 - Reverse motor immediately
 
 **Anti-amper**
+
 To prevent abuse:
 - Count button press times
 - if press count > 10 times
 - Within limited time window
+
 Then:
 - System enters forzen mode
 - No reponse for 1-2 minutes.
