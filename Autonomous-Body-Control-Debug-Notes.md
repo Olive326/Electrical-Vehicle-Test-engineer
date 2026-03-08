@@ -3,12 +3,12 @@ Before starting any troubleshooting, I always make sure the following informatio
 
 **1.State-Sensor Logic table**
 This defines:
-- Which sensor lead to which system sction
+- Which sensor lead to which system section
 - The judgement rules inside MCU
 - Protection conditions and trigger conditions
 Without this table, it's impossible to know whether the system behavior is correct or not
 
-**2.Control Timing Disgram**
+**2.Control Timing Diagram**
 - Signal sequence
 - Delay between signals
 - Action flow of actuators
