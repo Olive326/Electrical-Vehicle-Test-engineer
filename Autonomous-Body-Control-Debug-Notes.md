@@ -76,7 +76,7 @@ Although the functions are different, their control architecture is very similar
 - Test while driving -- Tailgate is consistenly actuating while vehicle speed exceeds 3km/h
 
 **Root Cause**
-motor control harness issue. There is a function that automaticallly closes the tailgate while driving, which was incorrectly triggering the opening operation
+mismatch between harness and software. There is a function that automaticallly closes the tailgate while driving, which was incorrectly triggering the opening operation
 
 
 **Case 2 – Only Left Front Window Works**
