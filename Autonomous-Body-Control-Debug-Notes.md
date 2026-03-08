@@ -66,7 +66,20 @@ Although the functions are different, their control architecture is very similar
 
 ### Case Studies
 
-**Case 1 – Only Left Front Window Works**
+**Case 1 – Power Tailgate motor repetively burned**
+**Symptom**
+- Repeated burning.
+
+**Investigation**
+- Test while parked -- input Waveform is normal(position switch not used here)
+- Test while charging -- Normal
+- Test while driving -- Tailgate is consistenly actuating while vehicle speed exceeds 3km/h
+
+**Root Cause**
+motor control harness issue. There is a function that automaticallly closes the tailgate while driving, which was incorrectly triggering the closing operation
+
+
+**Case 2 – Only Left Front Window Works**
 **Symptom**
 - Only left front window can be controlled.
 - Other window switches are invalid.
