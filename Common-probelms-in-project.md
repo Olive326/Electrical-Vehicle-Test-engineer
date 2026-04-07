@@ -3,7 +3,7 @@
 ## 1. Power Supply & Noise Issues
 **Problem**: Car 12V power is very noisy with voltage spikes
 
-**Solution**: Add RC filter circuit before the DC converter to remove voltage spikes (used resistor R=___ and capacitor C=___)
+**Solution**: Add RC filter circuit at power input to remove voltage spikes (used resistor R=___ and capacitor C=___)
 Separate the MCU power supply from the motor driver power supply
 
 **Problem**: Motor back-EMF (reverse voltage)
