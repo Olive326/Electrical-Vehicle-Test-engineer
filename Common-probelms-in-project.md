@@ -9,7 +9,7 @@ Separate the MCU power supply from the motor driver power supply
 **Problem**: Motor back-EMF (reverse voltage)
 When brushed motors suddenly stop, they create high voltage spikes that can burn the MCU:
 
-**Solution**: Add TVS diode (Transient Voltage Suppressor) and flyback diode at the motor
+**Solution**: Add flyback diode at the motor
 Use star grounding: Connect motor ground, Hall sensor ground, and MCU ground all to DC ground separately to prevent noise interference
 
 ## 2. Signal Sampling Noise
